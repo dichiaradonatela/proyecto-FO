@@ -1,0 +1,667 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@font-face {
+
+    font-family: "adoha";
+    src: url(../recursos/tipografia/adoha.otf);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcceb3;
+    height: 80px;
+    width: 100%;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.logo {
+    height: auto;
+    width: auto;
+    object-fit: none;
+    padding-left: 25px;
+}
+
+.negrita {
+    font-weight: 600;
+}
+
+.menu {
+    padding: 25px;
+
+}
+
+button{
+    font-size: 14px;
+    background-color: #dcceb3;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+
+   
+}
+
+.adoha {
+    font-family: "adoha";
+    font-size: 14px;
+}
+
+
+#inicio {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    padding: 20px;
+    margin: 80px 25px 10px 25px
+
+}
+
+#inicio .contenedor-img,
+#inicio .contenedor-texto {
+    width: 50%;
+}
+
+.contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.contenedor-texto .principal{
+    font-size: 45px;
+    color: black;
+    font-family: "adoha";
+    text-align: left;
+    padding-bottom: 10px;
+    
+}
+
+.contenedor-texto p{
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    text-align: justify;
+    
+}
+
+.contenedor-texto .boton-principal{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    border: none;
+    background-color: #dcceb3;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+    width: fit-content;
+}
+
+.contenedor-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-img .perfil{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    padding: 50px;
+
+}
+
+#sobreMi {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#sobreMi .contenedor-imagen,
+#sobreMi .contenedor-sobre-mi {
+    width: 50%;
+}
+
+.contenedor-imagen {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    padding: 50px;
+}
+
+.contenedor-sobre-mi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-sobre-mi .sobre-mi-titulo{
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family: "adoha";
+}
+
+.contenedor-sobre-mi .sobre-mi-texto{
+    text-align: justify;
+}
+
+.perfil {
+width: 600px;
+height: 600px;
+}
+
+
+textarea {
+    border: none;
+    background-color: #dcceb3;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.secundario{
+    font-size: 40px;
+    color: black;
+    font-family: "adoha";
+    margin-top: 50px;
+}
+
+#historiaParaContar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contenedor-historia-para-contar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+
+.titulo-historia {
+    font-size: 40px;
+    color: black;
+    font-family: "adoha";
+    text-align: center;
+    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.parrafo-historia {
+    text-align: center;
+}
+
+.contenedor-caro {
+    display: flex;
+    justify-content: center;
+}
+
+.img-caro {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.texto-caro .titulo-caro{
+    font-family: "adoha";
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.parrafo-caro {
+    margin-bottom: 20px;
+    margin-right: 40px;
+    text-align: justify;
+
+}
+
+.contenedor-fede {
+    display: flex;
+    justify-content: center;
+}
+
+.img-fede {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.texto-fede .titulo-fede{
+    font-family: "adoha";
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.parrafo-fede {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: justify;
+
+}
+
+.leyendo-fede {
+    margin-left: 30px;
+}
+
+#escrituraYStorytelling {
+    margin-top: 80px;
+    margin-left: 25px;
+}
+
+#creatividadYMarketing {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+
+.e-y-s {
+    font-family: "adoha";
+    font-size: 30px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* .container-fluid {
+    margin-top: 90px;
+} */
+
+.img-fluid {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    
+}
+
+.col-4{
+    text-align: center ;
+    font-family: "adoha";
+}
+
+
+.col-6 {
+    text-align: center;
+}
+
+#form-control {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.form-control {
+    background-color: #dcceb3;
+    align-items: center;
+    width: 700px;
+    
+}
+
+.btn {
+    background-color: #dcceb3;
+    color: black;
+    border-bottom: none;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90px;
+
+}
+
+footer .contenedor-redes {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-redes .redes{
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    /* margin: 5px; */
+    padding: 30px;
+}
+
+footer .contenedor-derechos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer .contenedor-derechos .derechos{
+    font-size: 12px;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+
+}
+
+/* Ejemplo grid
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px auto 90px;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer"
+;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+header {
+    background-color: lightgreen;
+    grid-area: header;
+}
+
+main {
+    background-color: lightcoral;
+    grid-area: main;
+}
+
+footer {
+    background-color: lightblue;
+    grid-area: footer;
+} */
+
+@media (max-width:480px) {
+    
+    header {
+        flex-direction: column;
+        justify-content: unset;
+        height: 90px;
+        width: 100%;
+    }
+
+    * {
+        box-sizing: unset;
+    }
+   
+    ul{
+        padding-left: 0;
+        font-size: 12px;
+    }
+
+    .menu {
+        padding: 2px;
+    }
+
+    
+    .logo {
+        height: 25px;
+        object-fit: cover;
+        padding-left: 0;
+        margin: 20px;
+    }
+
+    #inicio {
+        display: unset;
+        flex-direction: unset;
+        height: 0;
+        width: 100%;
+    }
+
+    #inicio .contenedor-img,
+    #inicio .contenedor-texto {
+        width: auto;
+    }
+
+    .contenedor-texto {
+        display: unset;
+        /* margin: 20px;
+        padding: 10px;
+         */
+    }
+
+    .contenedor-texto .principal{
+        font-size: 30px;
+        padding-top: 60px;
+        margin: 25px 20px 0px 20px;
+        text-align: center;
+    }
+
+    .contenedor-texto p{
+        font-size: 15px;
+        margin: 0px 25px 20px 25px;
+    }
+
+    .contenedor-texto .boton-principal{
+        margin: 0 0 0 25px;
+    }
+    
+    .boton-principal {
+        text-align: center;
+    }
+
+    .contenedor-img .perfil{
+        height: 0;
+        width: 0;
+        padding: 0px;
+    }
+
+    footer .contenedor-redes {
+        height: 50px;
+    }
+
+    footer .contenedor-redes {
+        width: 100%;
+    }
+    .contenedor-redes .redes{
+        font-size: 13px;
+    }
+
+    #sobreMi {
+        display: unset;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #sobreMi .contenedor-imagen,
+    #sobreMi .contenedor-sobre-mi {
+        width: 100%;
+    }
+
+    .contenedor-imagen {
+        padding: 0px;
+        margin-top: 90px;
+    }   
+    
+    .sobre-mi-img{
+        height: 200px;
+        object-fit: cover;
+
+    }
+
+    .contenedor-sobre-mi .sobre-mi-titulo{
+        font-size: 25px;
+        padding-bottom: 0px;
+        text-align: center;
+        margin: 20px 25px 10px 25px;
+    }
+
+    .contenedor-sobre-mi .sobre-mi-texto{
+        margin: 20px 25px 10px 25px; 
+        font-size: 15px;
+    }
+
+    #historiaParaContar {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .contenedor-historia-para-contar {
+        display: unset;
+        margin: 0px;
+        padding-top: 35px;
+    }
+    
+    .titulo-historia {
+        font-size: 25px;
+        color: black;
+        margin: 0px;
+        padding-top: 70px;
+        padding-bottom: 7px;
+    }
+    
+    .parrafo-historia {
+        text-align: justify;
+    }
+    .contenedor-caro {
+        margin: 0;
+    }
+
+    .img-caro {
+        height: 100px;
+        width: 100px;
+        margin-left: 25px;
+    }
+    
+    .texto-caro .titulo-caro{
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    
+    .parrafo-caro {
+        font-size: 10px;
+        margin-right: 25px;
+    }
+
+    .leyendo-caro {
+        font-size: 10px;
+    }
+    
+    .contenedor-fede {
+        margin: 0;
+    }
+
+    .img-fede {
+        height: 100px;
+        width: 100px;
+        margin-right: 25px;
+    }
+    
+    .texto-fede .titulo-fede{
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        margin-left: 25px;
+    }
+    
+    .parrafo-fede {
+        font-size: 10px;
+        margin-left: 25px;
+    }
+    
+    .leyendo-fede {
+        margin-left: 25px;
+        font-size: 10px;
+    }
+
+    .row {
+        width: auto;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .container-fluid {
+        margin-top: 20px;
+        padding: 0;
+
+    }
+
+    .col-6 {
+        width: 300px;
+        text-align: justify;
+    }
+
+    .col-4 {
+        width: auto;
+    }
+    
+    .form-control {
+        width: 300px;
+    }
+
+    .justify-content-center {
+        margin: 0;
+    }
+
+    .e-y-s {
+        font-size: 28px;
+        
+    }
+
+    .col-5 {
+        margin-left: 10px;
+    }
+
+    .col-9 {
+        width: 200px;
+        height: auto;
+        margin-left: 15px;
+    }
+
+     .col-2 {
+        width: auto;
+        margin-left: 15px;
+    }
+
+    #escrituraYStorytelling {
+        margin-left: 0;
+    }
+
+    #creatividadYMarketing {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+}
