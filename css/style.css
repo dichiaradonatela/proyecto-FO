@@ -100,7 +100,6 @@ a{
     font-family: "adoha";
     text-align: left;
     padding-bottom: 10px;
-    
 }
 
 .contenedor-texto p{
@@ -109,7 +108,6 @@ a{
     font-family: 'Poppins', sans-serif;
     padding-bottom: 20px;
     text-align: justify;
-    
 }
 
 .contenedor-texto .boton-principal{
@@ -246,7 +244,6 @@ textarea {
     margin-bottom: 20px;
     margin-right: 40px;
     text-align: justify;
-
 }
 
 .contenedor-fede {
@@ -291,7 +288,6 @@ textarea {
     margin-left: 25px;
 }
 
-
 .e-y-s {
     font-family: "adoha";
     font-size: 30px;
@@ -307,13 +303,11 @@ textarea {
     width: 300px;
     height: 150px;
     object-fit: cover;
-    
 }
 
 .col-4{
     text-align: center ;
     font-family: "adoha";
-
 }
 
 
@@ -326,14 +320,12 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-  
 }
 
 .form-control {
     background-color: #dcceb3;
     align-items: center;
     width: 700px;
-    
 }
 
 .btn {
@@ -347,7 +339,6 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     height: 90px;
-
 }
 
 footer .contenedor-redes {
@@ -486,11 +477,8 @@ footer {
     }
 
     footer .contenedor-redes {
-        height: 50px;
-    }
-
-    footer .contenedor-redes {
         width: 100%;
+        justify-content: center;
     }
     .contenedor-redes .redes{
         font-size: 13px;
