@@ -167,11 +167,19 @@ a{
     font-size: 40px;
     padding-bottom: 10px;
     font-family: "adoha";
+    margin-top: 90px;
 }
 
 .contenedor-sobre-mi .sobre-mi-texto{
     text-align: justify;
+    
 }
+
+p {
+    margin-bottom: 10px;
+}
+
+
 
 .perfil {
 width: 600px;
@@ -733,6 +741,7 @@ footer {
     .contenedor-sobre-mi .sobre-mi-titulo {
         font-size: 30px;
         text-align: center;
+        margin-top: 0;
     }
 
     .sobre-mi-texto {
@@ -740,13 +749,11 @@ footer {
         margin: 20px;
     }
 
-    
+
 
     footer {
         display: unset;
         position: absolute;
-      
-
     }
 
     footer .contenedor-redes {
