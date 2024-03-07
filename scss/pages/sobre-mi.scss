@@ -1,0 +1,33 @@
+#sobreMi {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    padding: 20px;
+    margin: 20px;
+    .contenedor-imagen {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    padding: 50px;
+    width: 50%;
+    }
+    .contenedor-sobre-mi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    .sobre-mi-titulo{
+        font-size: 40px;
+        padding-bottom: 10px;
+        font-family: "adoha";
+        margin-top: 90px;
+        }
+    .sobre-mi-texto{
+        text-align: justify;
+        }
+    }
+    p {
+    margin-bottom: 10px;
+    }
+}
+

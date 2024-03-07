@@ -1,0 +1,15 @@
+//general//
+@import "./general/variables.scss";
+@import "./general/reset.scss";
+@import "./general/button.scss";
+
+//layout//
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+
+//pages//
+@import "./pages/index.scss";
+@import "./pages/sobre-mi.scss";
+@import "./pages/una-historia-para-contar.scss";
+@import "./pages/servicios.scss";
+@import "./pages/contacto.scss";

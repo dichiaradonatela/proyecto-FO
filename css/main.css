@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+  font-family: "adoha";
+  src: url(../recursos/tipografia/adoha.otf);
+}
+button {
+  font-size: 14px;
+  background-color: #dcceb3;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  background-color: #dcceb3;
+  color: black;
+  border-bottom: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dcceb3;
+  height: 80px;
+  width: 100%;
+}
+header .logo {
+  height: auto;
+  width: auto;
+  object-fit: none;
+  padding-left: 25px;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+header ul .menu {
+  padding: 25px;
+}
+header ul .negrita {
+  font-weight: 600;
+}
+header ul a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90px;
+}
+footer .contenedor-redes {
+  display: flex;
+  flex-direction: row;
+}
+footer .contenedor-redes .redes {
+  display: flex;
+  justify-content: left;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+}
+footer .contenedor-derechos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+footer .contenedor-derechos .derechos {
+  font-size: 12px;
+  color: gray;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+}
+
+#inicio {
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+  padding: 20px;
+  margin: 80px 25px 10px 25px;
+}
+#inicio .contenedor-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  width: 50%;
+}
+#inicio .contenedor-texto .principal {
+  font-size: 45px;
+  color: black;
+  font-family: "adoha";
+  text-align: left;
+  padding-bottom: 10px;
+}
+#inicio .contenedor-texto p {
+  font-size: 16px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+#inicio .contenedor-texto .boton-principal {
+  font-family: "Poppins", sans-serif;
+  border-radius: 20px;
+  border: none;
+  background-color: #dcceb3;
+  color: black;
+  padding: 10px;
+  margin-top: 30px;
+  width: fit-content;
+}
+#inicio .contenedor-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+#inicio .contenedor-img .perfil {
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  padding: 50px;
+  width: 600px;
+  height: 600px;
+}
+
+#sobreMi {
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+  padding: 20px;
+  margin: 20px;
+}
+#sobreMi .contenedor-imagen {
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  padding: 50px;
+  width: 50%;
+}
+#sobreMi .contenedor-sobre-mi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+#sobreMi .contenedor-sobre-mi .sobre-mi-titulo {
+  font-size: 40px;
+  padding-bottom: 10px;
+  font-family: "adoha";
+  margin-top: 90px;
+}
+#sobreMi .contenedor-sobre-mi .sobre-mi-texto {
+  text-align: justify;
+}
+#sobreMi p {
+  margin-bottom: 10px;
+}
+
+#historiaParaContar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+}
+#historiaParaContar .contenedor-historia-para-contar {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+}
+#historiaParaContar .contenedor-historia-para-contar .titulo-historia {
+  font-size: 40px;
+  color: black;
+  font-family: "adoha";
+  text-align: center;
+  margin: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#historiaParaContar .contenedor-historia-para-contar .parrafo-historia {
+  text-align: center;
+}
+
+#carolina .contenedor-caro {
+  display: flex;
+  justify-content: center;
+}
+#carolina .contenedor-caro .img-caro {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 30px;
+}
+#carolina .contenedor-caro .texto-caro .titulo-caro {
+  font-family: "adoha";
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+#carolina .contenedor-caro .texto-caro .parrafo-caro {
+  margin-bottom: 20px;
+  margin-right: 40px;
+  text-align: justify;
+}
+#carolina .contenedor-caro .texto-caro .leyendo-caro {
+  text-decoration: none;
+  color: black;
+  font-family: "adoha";
+}
+
+#federico .contenedor-fede {
+  display: flex;
+  justify-content: center;
+}
+#federico .contenedor-fede .img-fede {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 30px;
+}
+#federico .contenedor-fede .texto-fede .titulo-fede {
+  font-family: "adoha";
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+#federico .contenedor-fede .texto-fede .parrafo-fede {
+  margin-bottom: 20px;
+  margin-left: 30px;
+  text-align: justify;
+}
+#federico .contenedor-fede .texto-fede .leyendo-fede {
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+  font-family: "adoha";
+}
+
+#escrituraYStorytelling {
+  margin-top: 80px;
+  margin-left: 25px;
+}
+#escrituraYStorytelling .e-y-s {
+  font-family: "adoha";
+  font-size: 30px;
+  text-align: left;
+  margin-top: 10px;
+}
+#escrituraYStorytelling .img-fluid {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#creatividadYMarketing {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+#creatividadYMarketing .e-y-s {
+  font-family: "adoha";
+  font-size: 30px;
+  text-align: left;
+  margin-top: 10px;
+}
+#creatividadYMarketing .img-fluid {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#contacto .col-4 {
+  text-align: center;
+  font-family: "adoha";
+}
+#contacto .col-6 {
+  text-align: center;
+}
+
+#form-control {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#form-control .form-control {
+  background-color: #dcceb3;
+  align-items: center;
+  width: 700px;
+}
+
+/*# sourceMappingURL=main.css.map */

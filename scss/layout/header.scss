@@ -1,0 +1,36 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-primario;
+    height: 80px;
+    width: 100%;
+    .logo {
+        height: auto;
+        width: auto;
+        object-fit: none;
+        padding-left: 25px;
+        }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+        .menu {
+            padding: 25px;
+            }
+        .negrita {
+            font-weight: 600;
+            }
+        a{
+            text-decoration: none;
+            color: $color-secundario;
+            align-items: center;}
+        }
+}

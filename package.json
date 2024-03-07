@@ -1,0 +1,11 @@
+{
+  "name": "preentregadichiara",
+  "version": "1.0.0",
+  "description": "Proyecto realizado para el curso de desarrollo web de Coderhouse\r Tecnicas utilizadas \r -html\r -css\r -grid\r -bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

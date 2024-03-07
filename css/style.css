@@ -1,12 +1,10 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-
 }
 
 @font-face {
-
     font-family: "adoha";
     src: url(../recursos/tipografia/adoha.otf);
 }
@@ -23,7 +21,6 @@ header {
     background-color: #dcceb3;
     height: 80px;
     width: 100%;
-
 }
 
 ul{
@@ -48,32 +45,30 @@ ul{
 .menu {
     padding: 25px;
 
-}
+} */
 
-button{
+/* button{
     font-size: 14px;
     background-color: #dcceb3;
     padding: 10px;
     border-radius: 20px;
     border: none;
     font-family: 'Poppins', sans-serif;
-}
+} */
 
-a{
+/* a{
     text-decoration: none;
     color: black;
     align-items: center;
-
-   
 }
 
 .adoha {
     font-family: "adoha";
     font-size: 14px;
 }
+ */
 
-
-#inicio {
+/* #inicio {
     display: flex;
     flex-direction: row;
     height: 700px;
@@ -134,10 +129,14 @@ a{
     flex-direction: column;
     object-fit: cover;
     padding: 50px;
+} 
 
-}
+.perfil {
+width: 600px;
+height: 600px;
+} */
 
-#sobreMi {
+/* #sobreMi {
     display: flex;
     flex-direction: row;
     height: 700px;
@@ -161,9 +160,9 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
-.contenedor-sobre-mi .sobre-mi-titulo{
+/* .contenedor-sobre-mi .sobre-mi-titulo{
     font-size: 40px;
     padding-bottom: 10px;
     font-family: "adoha";
@@ -172,20 +171,11 @@ a{
 
 .contenedor-sobre-mi .sobre-mi-texto{
     text-align: justify;
-    
 }
 
 p {
     margin-bottom: 10px;
-}
-
-
-
-.perfil {
-width: 600px;
-height: 600px;
-}
-
+} */
 
 textarea {
     border: none;
@@ -201,7 +191,7 @@ textarea {
     margin-top: 50px;
 }
 
-#historiaParaContar {
+/* #historiaParaContar {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -285,9 +275,9 @@ textarea {
 
 .leyendo-fede {
     margin-left: 30px;
-}
+} */
 
-#escrituraYStorytelling {
+/* #escrituraYStorytelling {
     margin-top: 80px;
     margin-left: 25px;
 }
@@ -302,17 +292,17 @@ textarea {
     font-size: 30px;
     text-align: left;
     margin-top: 10px;
-}
+} */
 
 /* .container-fluid {
     margin-top: 90px;
 } */
 
-.img-fluid {
+/* .img-fluid {
     width: 300px;
     height: 150px;
     object-fit: cover;
-}
+} */
 
 .col-4{
     text-align: center ;
@@ -343,7 +333,7 @@ textarea {
     border-bottom: none;
 }
 
-footer{
+/* footer{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -363,7 +353,6 @@ footer .contenedor-redes {
     font-size: 16px;
     color: black;
     font-family: 'Poppins', sans-serif;
-    /* margin: 5px; */
     padding: 30px;
 }
 
@@ -378,8 +367,7 @@ footer .contenedor-derechos .derechos{
     color: gray;
     font-family: 'Poppins', sans-serif;
     margin: 10px;
-
-}
+} */
 
 /* Ejemplo grid
 

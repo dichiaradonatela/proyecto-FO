@@ -1,0 +1,91 @@
+#historiaParaContar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    .contenedor-historia-para-contar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+        .titulo-historia {
+            font-size: 40px;
+            color: $color-secundario;
+            font-family: "adoha";
+            text-align: center;
+            margin: 20px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        .parrafo-historia {
+            text-align: center;
+        }
+    }
+}
+
+#carolina {
+    .contenedor-caro {
+        display: flex;
+        justify-content: center;
+        .img-caro {
+            height: 300px;
+            width: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 30px;
+        }
+        .texto-caro {
+        .titulo-caro{
+            font-family: "adoha";
+            font-size: 30px;
+            margin-top: 100px;
+            margin-bottom: 30px;
+            }
+            .parrafo-caro {
+            margin-bottom: 20px;
+            margin-right: 40px;
+            text-align: justify;
+            }
+            .leyendo-caro {
+            text-decoration: none;
+            color:$color-secundario;
+            font-family: "adoha"; 
+            }
+        }
+}
+}
+
+#federico { 
+    .contenedor-fede {
+        display: flex;
+        justify-content: center;
+        .img-fede {
+            height: 300px;
+            width: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 30px;
+        }
+        .texto-fede { 
+            .titulo-fede{
+            font-family: "adoha";
+            font-size: 30px;
+            margin-left: 30px;
+            margin-top: 100px;
+            margin-bottom: 30px; }
+            .parrafo-fede {
+            margin-bottom: 20px;
+            margin-left: 30px;
+            text-align: justify;
+            }
+            .leyendo-fede {
+            margin-left: 30px;
+            text-decoration: none;
+            color:$color-secundario;
+            font-family: "adoha";
+            
+        }
+        }
+        }
+    }
+
