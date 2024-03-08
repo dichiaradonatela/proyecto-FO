@@ -4,3 +4,4 @@ Tecnicas utilizadas
 -css
 -grid
 -bootstrap
+-scss
