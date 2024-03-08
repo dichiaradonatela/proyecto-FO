@@ -3,11 +3,23 @@
     flex-direction: column;
     padding: 20px;
     margin: 20px;
+    @include media-query-mobile (){
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
     .contenedor-historia-para-contar {
     display: flex;
     flex-direction: column;
     margin: 20px;
     padding: 20px;
+    @include media-query-mobile (){
+    display: unset;
+    margin: 0px;
+    padding-top: 35px;
+
+    }
         .titulo-historia {
             font-size: 40px;
             color: $color-secundario;
@@ -16,9 +28,19 @@
             margin: 20px;
             padding-top: 30px;
             padding-bottom: 20px;
+            @include media-query-mobile (){
+                font-size: 25px;
+                color: black;
+                margin: 0px;
+                padding-top: 70px;
+                padding-bottom: 7px;
+            }
         }
         .parrafo-historia {
             text-align: center;
+            @include media-query-mobile (){
+            text-align: justify;
+            }
         }
     }
 }
@@ -27,12 +49,20 @@
     .contenedor-caro {
         display: flex;
         justify-content: center;
+        @include media-query-mobile (){
+            margin: 0;
+        }
         .img-caro {
             height: 300px;
             width: 300px;
             object-fit: cover;
             border-radius: 50%;
             margin: 30px;
+            @include media-query-mobile (){
+                height: 100px;
+                width: 100px;
+                margin-left: 25px;
+            }
         }
         .texto-caro {
         .titulo-caro{
@@ -40,16 +70,28 @@
             font-size: 30px;
             margin-top: 100px;
             margin-bottom: 30px;
+            @include media-query-mobile (){
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 0px;
+            }
             }
             .parrafo-caro {
             margin-bottom: 20px;
             margin-right: 40px;
             text-align: justify;
+            @include media-query-mobile (){
+                font-size: 10px;
+                margin-right: 25px;
+            }
             }
             .leyendo-caro {
             text-decoration: none;
             color:$color-secundario;
             font-family: "adoha"; 
+            @include media-query-mobile (){
+                font-size: 10px;
+            }
             }
         }
 }
@@ -59,12 +101,20 @@
     .contenedor-fede {
         display: flex;
         justify-content: center;
+        @include media-query-mobile (){
+            margin: 0;
+        }
         .img-fede {
             height: 300px;
             width: 300px;
             object-fit: cover;
             border-radius: 50%;
             margin: 30px;
+            @include media-query-mobile (){
+                height: 100px;
+                width: 100px;
+                margin-right: 25px;
+            }
         }
         .texto-fede { 
             .titulo-fede{
@@ -72,20 +122,36 @@
             font-size: 30px;
             margin-left: 30px;
             margin-top: 100px;
-            margin-bottom: 30px; }
+            margin-bottom: 30px;
+            @include media-query-mobile (){
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 0px;
+                margin-left: 25px;
+            } 
+            }
             .parrafo-fede {
             margin-bottom: 20px;
             margin-left: 30px;
             text-align: justify;
+            @include media-query-mobile (){
+                font-size: 10px;
+                margin-left: 25px;
+            }
             }
             .leyendo-fede {
             margin-left: 30px;
             text-decoration: none;
             color:$color-secundario;
             font-family: "adoha";
+            @include media-query-mobile (){
+                margin-left: 25px;
+                font-size: 10px;
+            }
             
         }
         }
         }
     }
+
 

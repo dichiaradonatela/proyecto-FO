@@ -1,11 +1,60 @@
 #escrituraYStorytelling {
     margin-top: 80px;
     margin-left: 25px;
+    @include media-query-mobile (){
+        margin-left: 0;
+    }
+    .container-fluid {
+    @include media-query-mobile () {
+    margin-top: 20px;
+    padding: 0;}
+    .row {
+        @include media-query-mobile () {
+    width: auto;
+    margin: 0;
+    padding: 0;}
+    .col-5 {
+        @include media-query-mobile () {
+            margin-left: 10px;}
+            .e-y-s {
+                font-family: "adoha";
+                font-size: 30px;
+                text-align: left;
+                margin-top: 10px;}}}}}
+    .col-9 {
+        @include media-query-mobile (){
+            width: 200px;
+            height: auto;
+            margin-left: 15px;
+        }
+    }
+    .img-fluid {
+        width: 300px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .col-2 {
+        @include media-query-mobile (){
+            width: auto;
+            margin-left: 15px;
+        }
+    }
+
+#creatividadYMarketing {
+    margin-top: 20px;
+    margin-left: 25px;
+    @include media-query-mobile (){
+        margin-left: 0;
+        margin-top: 0;
+    }
     .e-y-s {
         font-family: "adoha";
         font-size: 30px;
         text-align: left;
         margin-top: 10px;
+        @include media-query-mobile (){
+            font-size: 28px;
+        }
     }
     .img-fluid {
         width: 300px;
@@ -14,18 +63,5 @@
     }
 }
 
-#creatividadYMarketing {
-    margin-top: 20px;
-    margin-left: 25px;
-    .e-y-s {
-        font-family: "adoha";
-        font-size: 30px;
-        text-align: left;
-        margin-top: 10px;
-    }
-    .img-fluid {
-        width: 300px;
-        height: 150px;
-        object-fit: cover;
-    }
-}
+
+

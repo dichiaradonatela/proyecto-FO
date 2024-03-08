@@ -4,18 +4,37 @@
     height: 700px;
     padding: 20px;
     margin: 80px 25px 10px 25px;
+    @include media-query-mobile () {
+        display: unset;
+        flex-direction: unset;
+        height: 0;
+        width: 100%;
+    }
     .contenedor-texto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 40px;
     width: 50%;
+    @include media-query-mobile () {
+        width: auto;
+        display: unset;
+    }
+    @include media-query-tablet () {
+        justify-content: unset;
+    }
         .principal{
             font-size: 45px;
             color: $color-secundario;
             font-family: "adoha";
             text-align: left;
             padding-bottom: 10px;
+            @include media-query-mobile () {
+                font-size: 30px;
+                padding-top: 60px;
+                margin: 25px 20px 0px 20px;
+                text-align: center;
+            }
             }
         p{
             font-size: 16px;
@@ -23,6 +42,13 @@
             font-family: 'Poppins', sans-serif;
             padding-bottom: 20px;
             text-align: justify;
+            @include media-query-mobile () {
+                font-size: 15px;
+                margin: 0px 25px 20px 25px;
+            }
+            @include media-query-tablet () {
+                font-size: 15px;
+            }
             }
         .boton-principal{
         font-family: 'Poppins', sans-serif;
@@ -33,6 +59,13 @@
         padding: 10px;
         margin-top: 30px;
         width: fit-content;
+        @include media-query-mobile () {
+            margin: 0 0 0 25px;
+            text-align: center;
+        }
+        @include media-query-tablet () {
+            margin-top: 0;
+        }
         }
     }
     .contenedor-img {
@@ -41,6 +74,9 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+    @include media-query-mobile () {
+        width: auto;
+    }
         .perfil{
         display: flex;
         flex-direction: column;
@@ -48,7 +84,19 @@
         padding: 50px;
         width: 600px;
         height: 600px;
+        @include media-query-mobile () {
+            height: 0;
+            width: 0;
+            padding: 0px;
+        }
+        @include media-query-tablet () {
+            padding: 0;
+            margin-top: 80px;
+            width: 300px;
+        }
         }
     }
 }
+
+
 
