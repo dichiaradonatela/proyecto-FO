@@ -27,13 +27,17 @@ footer{
         font-size: 16px;
         color: $color-secundario;
         font-family:'Poppins', sans-serif;
+        margin: 10px;
+        padding: 10px;
         @include media-query-mobile() {
         padding: 30px;
         font-size: 13px;
         }
         @include media-query-tablet() {
         justify-content: center;
-        margin: 0;
+        margin: 10px;
+        padding: 10px;
+        
         }
 
         }
