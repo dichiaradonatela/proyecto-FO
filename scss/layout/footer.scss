@@ -5,12 +5,12 @@ footer{
     height: 90px;
     @include media-query-mobile() {
         display: unset;
-        position: absolute;    
-    }
-    @include media-query-tablet() {
+         position: absolute;    
+ }
+     @include media-query-tablet() {
         display: unset;
         position: absolute;
-    }
+     }
    .contenedor-redes {
         display: flex;
         flex-direction: row;
