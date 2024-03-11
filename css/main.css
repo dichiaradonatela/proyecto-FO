@@ -151,6 +151,8 @@ footer .contenedor-redes .redes {
   font-size: 16px;
   color: black;
   font-family: "Poppins", sans-serif;
+  margin: 10px;
+  padding: 10px;
 }
 @media (max-width: 480px) {
   footer .contenedor-redes .redes {
@@ -161,7 +163,8 @@ footer .contenedor-redes .redes {
 @media (max-width: 768px) {
   footer .contenedor-redes .redes {
     justify-content: center;
-    margin: 0;
+    margin: 10px;
+    padding: 10px;
   }
 }
 footer .contenedor-derechos {
