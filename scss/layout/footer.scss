@@ -14,6 +14,7 @@ footer{
    .contenedor-redes {
         display: flex;
         flex-direction: row;
+        margin-left: 15px;
         @include media-query-mobile() {
         width: 100%;
         justify-content: center;
@@ -23,15 +24,14 @@ footer{
         }
         .redes {display: flex;
         justify-content: left;
-        text-decoration: none;
-        font-size: 16px;
-        color: $color-secundario;
-        font-family:'Poppins', sans-serif;
-        margin: 10px;
+        width: 50px;
+        height: 50px;
+        margin: 15px;
         padding: 10px;
         @include media-query-mobile() {
         padding: 30px;
-        font-size: 13px;
+        width: 24px;
+        height: 24px;
         }
         @include media-query-tablet() {
         justify-content: center;

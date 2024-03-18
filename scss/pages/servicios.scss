@@ -12,7 +12,8 @@
         @include media-query-mobile () {
     width: auto;
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    box-sizing: none; }
     .col-5 {
         @include media-query-mobile () {
             margin-left: 10px;}

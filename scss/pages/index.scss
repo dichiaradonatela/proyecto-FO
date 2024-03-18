@@ -75,7 +75,8 @@
     align-items: center;
     width: 50%;
     @include media-query-mobile () {
-        width: auto;
+        width: unset;
+        height: unset;
     }
         .perfil{
         display: flex;

@@ -37,8 +37,14 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #dcceb3;
-  height: 80px;
   width: 100%;
+  height: 90px;
+}
+header .nav {
+  background-color: unset;
+}
+header .nav .navbar-collapse {
+  justify-content: flex-end;
 }
 @media (max-width: 480px) {
   header {
@@ -132,6 +138,7 @@ footer {
 footer .contenedor-redes {
   display: flex;
   flex-direction: row;
+  margin-left: 15px;
 }
 @media (max-width: 480px) {
   footer .contenedor-redes {
@@ -147,17 +154,16 @@ footer .contenedor-redes {
 footer .contenedor-redes .redes {
   display: flex;
   justify-content: left;
-  text-decoration: none;
-  font-size: 16px;
-  color: black;
-  font-family: "Poppins", sans-serif;
-  margin: 10px;
+  width: 50px;
+  height: 50px;
+  margin: 15px;
   padding: 10px;
 }
 @media (max-width: 480px) {
   footer .contenedor-redes .redes {
     padding: 30px;
-    font-size: 13px;
+    width: 24px;
+    height: 24px;
   }
 }
 @media (max-width: 768px) {
@@ -275,7 +281,8 @@ footer .contenedor-derechos .derechos {
 }
 @media (max-width: 480px) {
   #inicio .contenedor-img {
-    width: auto;
+    width: unset;
+    height: unset;
   }
 }
 #inicio .contenedor-img .perfil {
@@ -604,6 +611,7 @@ footer .contenedor-derechos .derechos {
     width: auto;
     margin: 0;
     padding: 0;
+    box-sizing: none;
   }
 }
 @media (max-width: 480px) {
