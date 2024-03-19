@@ -89,6 +89,11 @@
             text-decoration: none;
             color:$color-secundario;
             font-family: "adoha"; 
+            transition: all 0.5s ease;
+            &:hover {
+                color: $color-primario;
+                transition: all 0.5s ease;
+            }
             @include media-query-mobile (){
                 font-size: 10px;
             }
@@ -144,6 +149,10 @@
             text-decoration: none;
             color:$color-secundario;
             font-family: "adoha";
+            transition: all 0.5s ease;
+            &:hover {
+                color: $color-primario;
+                transition: all 0.5s ease;
             @include media-query-mobile (){
                 margin-left: 25px;
                 font-size: 10px;
@@ -153,5 +162,4 @@
         }
         }
     }
-
-
+ }

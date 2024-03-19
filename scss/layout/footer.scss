@@ -5,7 +5,7 @@ footer{
     height: 90px;
     @include media-query-mobile() {
         display: unset;
-         position: absolute;    
+        position: absolute;    
  }
      @include media-query-tablet() {
         display: unset;
@@ -24,20 +24,20 @@ footer{
         }
         .redes {display: flex;
         justify-content: left;
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         margin: 15px;
         padding: 10px;
         @include media-query-mobile() {
-        padding: 30px;
-        width: 24px;
-        height: 24px;
+        width: 50px;
+        height: 50px;
+        animation: none;
         }
         @include media-query-tablet() {
         justify-content: center;
         margin: 10px;
         padding: 10px;
-        
+        animation: none;
         }
 
         }

@@ -5,16 +5,64 @@ header {
     opacity: 90%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     background-color: $color-primario;
+    --bs-bg-opacity: unset;
     width: 100%;
     height: 90px;
-    .nav {
+  
+    @include media-query-mobile()
+    {
+        
+    }
+    .bg-body-tertiary {
         background-color: unset;
-        .navbar-collapse {
-            justify-content: flex-end;
+        --bs-bg-opacity: unset;
+        text-align: right;
+        @include media-query-mobile()
+{
+    }
+        .navbar-brand{
+        margin-left: 25px;
+        @include media-query-mobile()
+        {
+            width: 0px;
         }
+        }
+        .navbar-toggler {
+            border: unset;
+        }
+        .navbar-collapse{
+            justify-content: flex-end;
+           
+            @include media-query-mobile(){
+                background-color: $color-primario;
+                color: $color-secundario;
+                font-family: 'Poppins', sans-serif; 
+                font-size: 18px;
+                text-align: center;
+            }
+            @include media-query-tablet {
+                background-color: $color-primario;
+                color: $color-secundario;
+                font-family: 'Poppins', sans-serif; 
+                font-size: 20px;
+                text-align: center;
+            }
+            .nav-item {
+                justify-content: flex-end;
+                transition: all 0.5s ease;
+                &:hover {
+                    font-size: 20px;
+                    transition: all 0.5s ease;
+                    font-weight: 600;
+                }
+                &:active {
+                    text-decoration: underline;
+                }
+                
+               
+            }
+        } 
     }
     @include media-query-mobile() {
     flex-direction: column;
@@ -29,7 +77,6 @@ header {
         height: auto;
         width: auto;
         object-fit: none;
-        padding-left: 25px;
         @include media-query-mobile() {
         height: 25px;
         object-fit: cover;
@@ -41,40 +88,10 @@ header {
         object-fit: cover;
         }
         }
-    ul{
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 0;
-        @include media-query-mobile() {
-        padding-left: 0;
-        font-size: 12px;
-        
+     
         }
-        @include media-query-tablet() {
-        font-size: 12px;
-        }
-        .menu {
-            padding: 25px;
-            @include media-query-mobile() {
-            padding: 2px;
-            }
-            @include media-query-tablet() {
-            padding: 5px;
-            }
-            }
-        .negrita {
-            font-weight: 600;
-            }
-        a{
-            text-decoration: none;
-            color: $color-secundario;
-            align-items: center;}
-        }
-}
+      
 
 
 
 
-   

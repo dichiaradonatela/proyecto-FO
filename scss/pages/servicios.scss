@@ -28,11 +28,13 @@
             height: auto;
             margin-left: 15px;
         }
+    
     }
     .img-fluid {
         width: 300px;
         height: 150px;
         object-fit: cover;
+        
     }
     .col-2 {
         @include media-query-mobile (){
