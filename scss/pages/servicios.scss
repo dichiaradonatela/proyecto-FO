@@ -21,13 +21,19 @@
                 font-family: "adoha";
                 font-size: 30px;
                 text-align: left;
-                margin-top: 10px;}}}}}
+                margin-top: 10px;}}
+            
+            }}}
     .col-9 {
         @include media-query-mobile (){
-            width: 200px;
-            height: auto;
+            width: 50%;
             margin-left: 15px;
         }
+    .col-3 {
+        @include media-query-mobile (){
+            width: 45%;
+        }
+    }
     
     }
     .img-fluid {
@@ -50,6 +56,10 @@
         margin-left: 0;
         margin-top: 0;
     }
+    .col-5 {
+        @include media-query-mobile () {
+            margin-left: 10px;}
+        }
     .e-y-s {
         font-family: "adoha";
         font-size: 30px;
