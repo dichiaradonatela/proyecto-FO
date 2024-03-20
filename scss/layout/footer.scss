@@ -3,14 +3,16 @@ footer{
     flex-wrap: wrap;
     width: 100%;
     height: 90px;
+    
     @include media-query-mobile() {
         display: unset;
         position: absolute;    
- }
+    }
      @include media-query-tablet() {
         display: unset;
         position: absolute;
-     }
+        
+    }
    .contenedor-redes {
         display: flex;
         flex-direction: row;
@@ -22,7 +24,8 @@ footer{
         @include media-query-tablet() {
         justify-content: center;
         }
-        .redes {display: flex;
+        .redes {
+        display: flex;
         justify-content: left;
         width: 60px;
         height: 60px;
