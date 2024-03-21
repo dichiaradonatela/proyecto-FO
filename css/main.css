@@ -28,16 +28,24 @@ header {
   top: 0;
   left: 0;
   opacity: 90%;
-  display: flex;
-  flex-direction: row;
   background-color: #dcceb3;
-  height: 90px;
   width: 100%;
+}
+@media (max-width: 480px) {
+  header {
+    width: 100%;
+  }
 }
 header .bg-body-tertiary {
   background-color: unset;
   --bs-bg-opacity: unset;
   justify-content: flex-end;
+  height: 90px;
+}
+@media (max-width: 480px) {
+  header .bg-body-tertiary {
+    width: 100%;
+  }
 }
 header .bg-body-tertiary .navbar-brand {
   margin-left: 25px;
@@ -68,7 +76,8 @@ header .bg-body-tertiary .navbar-collapse {
     color: black;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
   }
 }
 header .bg-body-tertiary .navbar-collapse .nav-item {
@@ -82,36 +91,6 @@ header .bg-body-tertiary .navbar-collapse .nav-item:hover {
 }
 header .bg-body-tertiary .navbar-collapse .nav-item:active {
   text-decoration: underline;
-}
-@media (max-width: 480px) {
-  header {
-    flex-direction: column;
-    justify-content: unset;
-    height: 90px;
-    width: 100%;
-  }
-  header * {
-    box-sizing: unset;
-  }
-}
-header .logo {
-  height: auto;
-  width: auto;
-  object-fit: none;
-}
-@media (max-width: 480px) {
-  header .logo {
-    height: 25px;
-    object-fit: cover;
-    padding-left: 0;
-    margin: 20px;
-  }
-}
-@media (max-width: 768px) {
-  header .logo {
-    height: 30px;
-    object-fit: cover;
-  }
 }
 
 footer {

@@ -3,21 +3,19 @@ header {
     top: 0;
     left: 0;
     opacity: 90%;
-    display: flex;
-    flex-direction: row;
     background-color: $color-primario;
-    height: 90px;
     width: 100%;
-    @include media-query-mobile()
-    {
-        
+    @include media-query-mobile(){
+        width: 100%;
     }
     .bg-body-tertiary {
         background-color: unset;
         --bs-bg-opacity: unset;
         justify-content: flex-end;
+        height: 90px;
         @include media-query-mobile(){
-        }
+        width: 100%;
+    }
         .navbar-brand{
         margin-left: 25px;
         @include media-query-mobile()
@@ -43,7 +41,8 @@ header {
                 color: $color-secundario;
                 font-family: 'Poppins', sans-serif; 
                 font-size: 20px;
-                text-align: center;
+                text-align: left;
+                padding-left: 20px;
             }
             .nav-item {
                 justify-content: flex-end;
@@ -55,38 +54,10 @@ header {
                 }
                 &:active {
                     text-decoration: underline;
-                }
-                
-               
-            }
-        } 
-    }
-    @include media-query-mobile() {
-    flex-direction: column;
-    justify-content: unset;
-    height: 90px;
-    width: 100%;
-    * {
-        box-sizing: unset;
+                }}
+            } 
     }
     }
-    .logo {
-        height: auto;
-        width: auto;
-        object-fit: none;
-        @include media-query-mobile() {
-        height: 25px;
-        object-fit: cover;
-        padding-left: 0;
-        margin: 20px;
-        }
-        @include media-query-tablet() {
-        height: 30px;
-        object-fit: cover;
-        }
-        }
-     
-        }
       
 
 
