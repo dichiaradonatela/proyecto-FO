@@ -6,7 +6,7 @@ header {
     background-color: $color-primario;
     width: 100%;
     @include media-query-mobile(){
-        width: 100%;
+        width: 480px;
     }
     .bg-body-tertiary {
         background-color: unset;
@@ -41,7 +41,7 @@ header {
                 color: $color-secundario;
                 font-family: 'Poppins', sans-serif; 
                 font-size: 20px;
-                text-align: left;
+                text-align: center;
                 padding-left: 20px;
             }
             .nav-item {

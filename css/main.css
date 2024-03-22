@@ -33,7 +33,7 @@ header {
 }
 @media (max-width: 480px) {
   header {
-    width: 100%;
+    width: 480px;
   }
 }
 header .bg-body-tertiary {
@@ -76,7 +76,7 @@ header .bg-body-tertiary .navbar-collapse {
     color: black;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
   }
 }
@@ -120,6 +120,7 @@ footer .contenedor-redes {
   footer .contenedor-redes {
     width: 100%;
     justify-content: center;
+    margin: 0;
   }
 }
 @media (max-width: 768px) {
